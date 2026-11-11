@@ -1,0 +1,33 @@
+Lab Assignment 7: RNN Applications — from SimpleRNN to LSTM, and from Classification to Tagging
+==================================================================================================
+
+In this assignment you will:
+• Part A (Task 1): Replace a SimpleRNN with an LSTM on sentiment classification and measure whether it fixes the vanishing gradient problem, especially on long sentences.
+• Part B (Tasks 2–5): Build an LSTM POS tagger on Penn Treebank data, evaluate it properly, then make it bidirectional and compare.
+
+Marks: Task 1 (4) + Task 2 (4) + Task 3 (4) + Task 4 (4) + Task 5 (4) = 20 total
+
+Files Provided:
+• Lab Assignment 7.ipynb — assignment notebook with instructions and TODOs
+• mini_sentiment.tsv — sentiment dataset (needed for Task 1)
+• Lab 7 - Tutorial Demo.ipynb — tutorial for reference
+
+Before You Start:
+• GPU is NOT required; everything runs in minutes on CPU.
+• If using Colab, upload mini_sentiment.tsv via the sidebar. Do NOT regenerate it from NLTK.
+• You may reuse the tutorial's data-loading pipeline for Task 1.
+• Tasks 2–5 use the Penn Treebank with the universal tagset (12 tags).
+
+Questions to Answer (in the notebook):
+Q1: Where is the LSTM's improvement largest — short or long sentences? Does this match the vanishing gradient theory?
+Q2: How many percentage points did bidirectionality gain, and at what parameter cost?
+Q3: Where do the LSTM and BiLSTM disagree? Explain using right-hand context.
+Q4: Which tags were hardest? What does sentence 1 reveal about the training data?
+
+Submission:
+✅ Runtime → Restart and run all completes without errors
+✅ All task outputs visible (tables, summaries, tagged sentences)
+✅ All four questions (Q1–Q4) answered
+✅ Submit the .ipynb file with all outputs saved
+
+Good luck! 🚀

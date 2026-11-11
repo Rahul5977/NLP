@@ -1,0 +1,20 @@
+# Environments
+.venv*/
+*.nosync/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+
+# Private group repos
+Group_Assignment1/
+NLP_Assignment_2/
+
+# Large model weights / checkpoints (exceed GitHub limits)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+checkpoint-*/
